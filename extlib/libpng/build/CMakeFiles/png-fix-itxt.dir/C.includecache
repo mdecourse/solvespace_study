@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/tmp/solvespace_study/extlib/libpng/contrib/tools/png-fix-itxt.c
+stdio.h
+-
+zlib.h
+-
+
+Y:/cad/201906_fall/data/msys64/mingw64/include/zconf.h
+stddef.h
+-
+windows.h
+-
+limits.h
+-
+sys/types.h
+-
+stdarg.h
+-
+stddef.h
+-
+unistd.h
+-
+unixio.h
+-
+
+Y:/cad/201906_fall/data/msys64/mingw64/include/zlib.h
+zconf.h
+Y:/cad/201906_fall/data/msys64/mingw64/include/zconf.h
+

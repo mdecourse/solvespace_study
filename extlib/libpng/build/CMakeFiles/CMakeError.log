@@ -1,0 +1,49 @@
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: C:/tmp/solvespace_study/extlib/libpng/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"Y:/cad/201906_fall/data/msys64/mingw64/bin/mingw32-make.exe" "cmTC_b1e90/fast"
+Y:/cad/201906_fall/data/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_b1e90.dir\build.make CMakeFiles/cmTC_b1e90.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/tmp/solvespace_study/extlib/libpng/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1e90.dir/src.c.obj
+Y:\cad\201906_fall\data\msys64\mingw64\bin\gcc.exe   -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script='C:/tmp/solvespace_study/extlib/libpng/build/conftest.map'   -o CMakeFiles\cmTC_b1e90.dir\src.c.obj   -c C:\tmp\solvespace_study\extlib\libpng\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_b1e90.exe
+Y:\cad\201906_fall\data\cmake-3.10.1-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_b1e90.dir\link.txt --verbose=1
+Y:\cad\201906_fall\data\cmake-3.10.1-win64-x64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_b1e90.dir/objects.a
+Y:\cad\201906_fall\data\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_b1e90.dir/objects.a @CMakeFiles\cmTC_b1e90.dir\objects1.rsp
+Y:\cad\201906_fall\data\msys64\mingw64\bin\gcc.exe  -DHAVE_LD_VERSION_SCRIPT -Wl,--version-script='C:/tmp/solvespace_study/extlib/libpng/build/conftest.map'    -Wl,--whole-archive CMakeFiles\cmTC_b1e90.dir/objects.a -Wl,--no-whole-archive  -o cmTC_b1e90.exe -Wl,--out-implib,libcmTC_b1e90.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b1e90.dir\linklibs.rsp
+Y:/cad/201906_fall/data/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open linker script file 'C:/tmp/solvespace_study/extlib/libpng/build/conftest.map': Invalid argument
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b1e90.dir\build.make:99: cmTC_b1e90.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/tmp/solvespace_study/extlib/libpng/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:125: cmTC_b1e90/fast] Error 2
+
+Source file was:
+void sym(void) {}
+void sym2(void) {}
+int main(void) {return 0;}
+
+Performing C SOURCE FILE Test HAVE_SOLARIS_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: C:/tmp/solvespace_study/extlib/libpng/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"Y:/cad/201906_fall/data/msys64/mingw64/bin/mingw32-make.exe" "cmTC_2eab9/fast"
+Y:/cad/201906_fall/data/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_2eab9.dir\build.make CMakeFiles/cmTC_2eab9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/tmp/solvespace_study/extlib/libpng/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2eab9.dir/src.c.obj
+Y:\cad\201906_fall\data\msys64\mingw64\bin\gcc.exe   -DHAVE_SOLARIS_LD_VERSION_SCRIPT -Wl,-M -Wl,C:/tmp/solvespace_study/extlib/libpng/build/conftest.map   -o CMakeFiles\cmTC_2eab9.dir\src.c.obj   -c C:\tmp\solvespace_study\extlib\libpng\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_2eab9.exe
+Y:\cad\201906_fall\data\cmake-3.10.1-win64-x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_2eab9.dir\link.txt --verbose=1
+Y:\cad\201906_fall\data\cmake-3.10.1-win64-x64\bin\cmake.exe -E remove -f CMakeFiles\cmTC_2eab9.dir/objects.a
+Y:\cad\201906_fall\data\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_2eab9.dir/objects.a @CMakeFiles\cmTC_2eab9.dir\objects1.rsp
+Y:\cad\201906_fall\data\msys64\mingw64\bin\gcc.exe  -DHAVE_SOLARIS_LD_VERSION_SCRIPT -Wl,-M -Wl,C:/tmp/solvespace_study/extlib/libpng/build/conftest.map    -Wl,--whole-archive CMakeFiles\cmTC_2eab9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2eab9.exe -Wl,--out-implib,libcmTC_2eab9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2eab9.dir\linklibs.rsp
+Y:/cad/201906_fall/data/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe:C:/tmp/solvespace_study/extlib/libpng/build/conftest.map: file format not recognized; treating as linker script
+Y:/cad/201906_fall/data/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe:C:/tmp/solvespace_study/extlib/libpng/build/conftest.map:1: syntax error
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_2eab9.dir\build.make:99: cmTC_2eab9.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/tmp/solvespace_study/extlib/libpng/build/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:125: cmTC_2eab9/fast] Error 2
+
+Source file was:
+void sym(void) {}
+void sym2(void) {}
+int main(void) {return 0;}
+
